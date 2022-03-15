@@ -6,13 +6,13 @@ let str;
 
         function alphabetSoup(str) {
 
-            // convert string to array
+            // convert string to array, seperates the word into seperate letters
             str = str.split("");
 
-            // once its an array you can sort it
+            // once its an array the sort re-aranges letters acording to the alphabet
             str.sort();
             
-            // now that it is sorted we can use join to convert it back into a String
+            // now that it is sorted, it joins the letters back together
             str = str.join("")
 
             return str;        
